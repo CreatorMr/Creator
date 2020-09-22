@@ -6,3 +6,9 @@ categories:
 - "前端"
 ---
 # react
+
+### JSX
+
+```jsx
+const element = <h1>Hello, world!</h1>;
+```
