@@ -1,4 +1,4 @@
-call apply  bind   
+call apply  bind   整理
 ### call 方法
 <<< @/docs/sourceCode/call-apply-bind/call.js
 
