@@ -1,10 +1,10 @@
-~function() {
+~function () {
   function newBind(context, ...args) {
     var _this = this;
-    context = context === undefined ? context : window;
+    context = context === undefined ? window : context;
     let type = typeof context
-    if(!/^(object|function)$/.test(type)) {
-      if(/^symbol|bigint$/.test(type)) {
+    if (!/^(object|function)$/.test(type)) {
+      if (/^symbol|bigint$/.test(type)) {
         context = Object(context)
       }
       context = new context.constructor(context);
