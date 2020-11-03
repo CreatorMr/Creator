@@ -8,29 +8,29 @@ module.exports = {
         {
           title: 'call、apply、bind',
           path: '/sourceCode/call-apply-bind/'
-        },{
+        }, {
           title: 'instanceof',
           path: '/sourceCode/instanceof'
-        },{
+        }, {
           title: 'new',
           path: '/sourceCode/new'
-        },{
+        }, {
           title: 'map',
           path: '/sourceCode/map'
-        },{
+        }, {
           title: 'Object.create',
           path: '/sourceCode/Object.create'
-        },{
+        }, {
           title: 'reduce',
           path: '/sourceCode/reduce'
-        },{
+        }, {
           title: 'push',
           path: '/sourceCode/push'
         },
         {
           title: 'filter',
           path: '/sourceCode/filter'
-        },{
+        }, {
           title: '用reduce实现map功能',
           path: '/sourceCode/用reduce实现map功能'
         }
@@ -315,6 +315,16 @@ module.exports = {
         {
           title: '面试题1',
           path: '/interview/call-apply对比'
+        },
+        {
+          title: 'CSS',
+          sidebarDepth: 1,
+          children: [
+            {
+              title: 'vue',
+              path: '/interview/css/盒子模型',
+            }
+          ]
         },
       ]
     }
